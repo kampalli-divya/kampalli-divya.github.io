@@ -13,27 +13,27 @@
         <form onsubmit="submitform()" class=".hello">
                 <div class="form-group">
                         <label for="exampleFormControlFName">First name</label>
-                        <input type="text" class="form-control" id="exampleFormControlFName" placeholder="Enter your first name">
+                        <input type="text" name="firstName" class="form-control" id="exampleFormControlFName" placeholder="Enter your first name">
                 </div>
                 <br>
                 <div class="form-group">
                         <label for="exampleFormControlLName">Last name</label>
-                        <input type="text" class="form-control" id="exampleFormControlLName" placeholder="Enter your last name">
+                        <input type="text" name="lastName" class="form-control" id="exampleFormControlLName" placeholder="Enter your last name">
                 </div>
                 <br>
                 <div class="form-group">
                         <label for="exampleFormControlMobile">Mobile number</label>
-                        <input type="text" class="form-control" id="exampleFormControlMobile" placeholder="Enter your Mobile number">
+                        <input type="text" name="mobileNumber" class="form-control" id="exampleFormControlMobile" placeholder="Enter your Mobile number">
                 </div>
                 <br>
                 <div class="form-group">
-                  <label for="exampleFormControlInput1">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <label for="exampleFormControlInput1">Email Id</label>
+                  <input type="email" name="emailId" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
                 <br>
                 <div class="form-group">
                   <label for="exampleFormControlGender">Gender</label>
-                  <select class="form-control" id="exampleFormControlGender">
+                  <select class="form-control" name="gender" id="exampleFormControlGender">
                     <option>Female</option>
                     <option>Male</option>
                   </select>
@@ -41,7 +41,7 @@
                 <br>
                 <div class="form-group">
                   <label for="exampleFormControlTextarea1">Additional Comments</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <textarea name="comments" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
         <br><input type="submit" value="Submit">
     </form>
